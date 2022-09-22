@@ -1,0 +1,38 @@
+/* CSS reset */
+* {
+	padding:0;
+	margin:0;
+	vertical-align:baseline;
+	list-style:none;
+	border:0
+}
+
+
+/* -------Style para footer-----------*/
+
+/* -----Cores para Background------- */
+.corPreto {
+	background-color: rgba(0, 0, 0, 0.904);
+}
+
+/* -----Cores para Font------- */
+.corLaranja{
+	color: #f77421;
+}
+.corBranca{
+	color: white;
+}
+
+/* ---Posição do Footer ------- */
+footer{
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	height: 70px;
+
+}
+
+/* -----logo footer------------- */
+.logoFooter{
+  width: 50px;
+}

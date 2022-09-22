@@ -1,0 +1,34 @@
+/* CSS reset */
+* {
+	padding:0;
+	margin:0;
+	vertical-align:baseline;
+	list-style:none;
+	border:0
+}
+
+
+/* -------Style para Header-----------*/
+
+/* -----Cores para Background------- */
+.corCinza {
+	background-color: rgba(2,2,2,0.65)
+}
+.corPreto {
+	background-color: rgba(0, 0, 0, 0.904);
+}
+
+/* -----Cores para Font------- */
+.corLaranja{
+	color: #f77421;
+}
+.corBranca{
+	color: white;
+}
+
+
+
+/* -----logo Header------------- */
+.logoHeader{
+  width: 100px;
+}
