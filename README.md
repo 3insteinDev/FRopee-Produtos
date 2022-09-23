@@ -58,3 +58,13 @@ http://localhost:4200/
 * Projeto em Andamento ...
 
 -Falta desempenhar a função de Search
+
+## Design
+* Até o momento a interface está assim
+
+<p float="left" align="center">
+  <img src="./front-end-fropee/src/assets/img/page 1.PNG" width="60%" />  
+</p>
+<p float="left" align="center">
+  <img src="./front-end-fropee/src/assets/img/page 2.PNG" width="60%" />  
+</p>
