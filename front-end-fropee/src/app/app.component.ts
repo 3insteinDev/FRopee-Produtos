@@ -18,8 +18,6 @@ export class AppComponent implements OnInit{
   data = Data
   search = new FormControl();
 
-
-
   constructor(public http: HttpClient){
   }
 
