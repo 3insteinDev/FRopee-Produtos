@@ -7,7 +7,7 @@
 O objetivo deste Repositório é construir uma Aplicação que consuma uma API Fake que nos fornece um Objeto contendo uma lista de Produtos. 
 Além do consumo, fornecer estes dados em um front-end, seguindo um escopo.
 
-Foi desenvolvido em Angular.js, Bootstrap, HTTML, CSS, JS e TS.
+Foi desenvolvido em Angular.js, Bootstrap, HTML, CSS, JS e TS.
 
 
 
@@ -19,7 +19,7 @@ Para clonar siga os seguintes passos:
 
 * Aqui no GitHub, na página principal deste repositório, clique em => código
 <p float="left" align="center">
-  <img src="./public/img/Clonar-repositorio.png" width="40%" />  
+  <img src="./public/img/Clonar-repositorio.PNG" width="40%" />  
 </p>
 
 * Copie a URL deste repositório
@@ -34,14 +34,14 @@ cd ./FRopee-Produtos
 
 
 ### Instalar dependencias
-* Após acessar o diretório RPC-NEWS, Digite o seguinte comando no terminal:
+* Após acessar o diretório FRopee-Produtos, Digite o seguinte comando no terminal:
 
 npm install   ou   npm i
 
 Ao acessar o arquivo package.json, na parte de dependências irá aparecer estas:
 
 <p float="left" align="center">
-  <img src="./public/img/package-dependencies.png" width="40%" />  
+  <img src="./public/img/package-dependencies.PNG" width="40%" />  
 </p>
 
 ### Rodar servidor
@@ -57,4 +57,4 @@ http://localhost:4200/
 ## Observação
 * Projeto em Andamento ...
 
-Falta desempenhar a função de Search
+-Falta desempenhar a função de Search
