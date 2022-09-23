@@ -19,7 +19,7 @@ Para clonar siga os seguintes passos:
 
 * Aqui no GitHub, na página principal deste repositório, clique em => código
 <p float="left" align="center">
-  <img src="./public/img/Clonar-repositorio.PNG" width="40%" />  
+  <img src="./src/assets/img/Clonar-repositorio.PNG" width="40%" />  
 </p>
 
 * Copie a URL deste repositório
@@ -41,7 +41,7 @@ npm install   ou   npm i
 Ao acessar o arquivo package.json, na parte de dependências irá aparecer estas:
 
 <p float="left" align="center">
-  <img src="./public/img/package-dependencies.PNG" width="40%" />  
+  <img src="./src/assets/img/package-dependencies.PNG" width="40%" />  
 </p>
 
 ### Rodar servidor
