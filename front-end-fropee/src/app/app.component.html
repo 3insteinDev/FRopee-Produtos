@@ -6,13 +6,32 @@
 
   <!-- Campo de pesquisa e filtros  -->
   <div class="p-4 p-md-5 mb-4 text-white rounded bg-dark">
-    <div class="col-md-6 px-0 mt-2">
+    <div class=" col-md-6 px-0 mt-2">
       <p class="lead mb-0">Encontre os produtos </p>
-      <input type="search" id="myInput" class="form-control" placeholder="Pesquisar Produtos" [formControl]="search">
+      <div class="d-flex">
+        <input type="search" id="myInput" class="form-control" placeholder="Pesquisar Produtos" [formControl]="search">
+        <button class="btn btn-lg btn-success" (click)="pesquisarProduto(this.search.value)">Pesquisar</button>
+      </div>
+
     </div>
-    <div class="col-auto my-2">
-      <button class="btn btn-lg btn-success" (click)="onSearch()">Pesquisar</button>
+
+    <div class="col-6 my-2">
+      <select class="form-select form-select-sm mb-3" aria-label=".form-select-lg example">
+      <option selected>Filtrar por:</option>
+      <option value="dataCadastro">Data de Cadastro</option>
+      <option value="id">ID</option>
+      <option value="nomeProduto">Nome do Produto</option>
+      </select>
     </div>
+    <div class="col-6 my-2">
+      <select class="form-select form-select-sm mb-3" aria-label=".form-select-lg example">
+      <option selected>Ordenar por:</option>
+      <option value="dataCadastro">Data de Cadastro</option>
+      <option value="id">ID</option>
+      <option value="Valor">Valor</option>
+      </select>
+    </div>
+
 
   </div>
 

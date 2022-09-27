@@ -1,6 +1,6 @@
 import { FormControl, ReactiveFormsModule } from '@angular/forms';
 import { Data } from './../assets/produtos';
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 
 
@@ -18,6 +18,7 @@ export class AppComponent implements OnInit{
   data = Data
   search = new FormControl();
 
+
   constructor(public http: HttpClient){
   }
 
@@ -25,9 +26,18 @@ export class AppComponent implements OnInit{
 
   }
 
-  onSearch(){
+  pesquisarProduto(text: any ){
+
+    console.log(
+      this.data.data.filter( produto => produto.Nome.includes(text))
+    )
     console.log(this.search.value)
+
+
+
     }
 
   title = 'front-end-fropee';
 }
+//Element.addEventListener('keypress',() => pesquisarProduto(this.search.value, ))
+
